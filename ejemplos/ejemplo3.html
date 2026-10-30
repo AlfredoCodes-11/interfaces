@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            display:block;
+            width: 500px;
+            height: 500px;
+            border: 1px solid #888;
+            margin: 100px auto;
+            /* clip-path: polygon(
+                50% 0%,
+                61% 35%,
+                95% 35%,
+                50% 70%
+            ); */
+
+            /* clip-path: ellipse(40% 35% at 50% 50%); */
+            mask-image: linear-gradient(black 60%, transparent);
+            mask-image: radial-gradient();
+            mask-size: 50px 50px;
+        }
+    </style>
+</head>
+<body>
+    <img src="img/images.jfif" alt="fondo de una montaña">
+</body>
+</html>
